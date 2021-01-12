@@ -12,10 +12,6 @@ const ProjectBox=(props)=>{
    return(
 
      <div className="ProjectBlock">
-    /* {
-       let mainBlock=document.querySelector('.pageContainer');
-       modal && mainBlock.classList.add('toggleDetail');
-     }*/
        <img src={props.imageSrc} alt="image du projet" className="imageBlock"/>
       <div className="description">
              <p className="descriptionText">{props.description}</p><br/>
