@@ -1,0 +1,41 @@
+
+
+.block{
+  width:25%;
+  margin:20px 20px;
+  word-wrap: break-word;
+  border: 1px black solid;
+  background-color: rgba(21,50,166,0.7);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px black;
+  animation: apear 1s ease-out forwards;
+}
+
+
+.blockTitle{
+  border-bottom: 1px black solid;
+  margin-bottom: 15px;
+}
+
+.BoxTitle{
+  margin-top: 15px;
+  font-size: 1em;
+  font-family: courier;
+  margin-bottom: 1px black solid;
+  color:#ffB;
+  font-family: Old English Text MT;
+  text-align: center;
+  font-weight: bold;
+}
+p{
+  margin-top: 5px;
+  font-size: 0.75em;
+}
+
+@keyframes apear {
+  from{
+    transform: scale(0.5);
+  }to{
+    transform: scale(1);
+  }
+}

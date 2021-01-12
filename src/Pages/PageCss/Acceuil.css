@@ -1,0 +1,35 @@
+.homeHeader{
+  color:#ffB;
+  font-size: 3em;
+  font-family: Old English Text MT;
+  text-align: center;
+  font-weight: bold;
+  margin: 90px;
+  text-shadow: 4px 4px 4px black;
+}
+p{
+  color:#ffB;
+  font-size: 2em;
+  font-family: courier;
+  text-align: center;
+  margin: 40px;
+
+}
+.downloadLink{
+  background-color: rgba(21,50,166,0.7);
+  border-radius: 25px;
+  padding: 20px;
+  width:auto;
+  height:30px;
+  margin: 50px;
+  text-align: center;
+  border: 1px white solid;
+}
+a{
+  font-family: sherif;
+  text-decoration: none;
+  color:#ddd;
+  line-height: center;
+  font-size: 0.9em;
+  font-weight: bold;
+}

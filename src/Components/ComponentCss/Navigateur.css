@@ -1,0 +1,65 @@
+.NavConteneur{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(21,50,166,0.9);
+  width:18%;
+  margin-right:10px;
+  padding: 30px;
+  border-radius: 30px;
+  color:white;
+  box-shadow: 4px 4px 4px black;
+}
+
+.headerNav{
+  display:flex;
+  flex-direction: column;
+}
+
+.lien{
+  color:white;
+  font-size: 1.2em;
+  font-family: sherif;
+  text-decoration: none;
+  margin:15px;
+  transform:scale(0.9);
+  transition: transform 1s ease;
+}
+
+.profileImg{
+  width:95%;
+  transform: scale(0.9);
+  transition: transform 1s ease-in;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px white;
+}
+
+.social_icones:hover{
+    transform:rotateY(360deg);
+}
+
+.social_icones{
+  margin-top: 25px;
+  margin-left:5px;
+  width:15%;
+  transition: transform 1s ease;
+}
+
+.profileImg:hover{
+   transform:scale(1);
+}
+
+.lien:hover{
+  transform:scale(1);
+}
+
+@media all and (max-width:920px){
+  .profileImg{
+    display:none;
+  }
+}
+
+.ActiveLink{
+  color:black;
+}

@@ -1,0 +1,66 @@
+.ProjectBlock{
+  width:25%;
+  height:400px;
+  margin:20px 20px;
+  word-wrap: break-word;
+  border: 1px black solid;
+  background-color: rgba(21,50,166,0.7);
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px black;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position:relative;
+  margin-top: 10px;
+}
+.BoxTitre{
+  height:auto;
+  margin-top: auto;
+  text-align: center;
+  font-family: courier;
+   color:white;
+   font-size: 1em;
+   margin-top: 0px;
+}
+
+.imageBlock{
+  width:100%;
+  height:auto;
+}
+
+.description{
+  position:absolute;
+  width:100%;
+  border-radius: 30px;
+  line-height:auto;
+  word-wrap: break-word;
+  visibility: hidden;
+  background-color: rgba(225,225,225,0.5);
+  height:0px;
+  transform-origin: bottom;
+  transition: height 1s ease-in;
+  box-shadow: 4px 4px 4px black;
+}
+
+.ProjectBlock:hover .description{
+  visibility: visible;
+  height:90%;
+}
+
+.descriptionText{
+  color:black;
+  font-size: 1em;
+  margin:5px;
+  line-height: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.detailLink{
+position:absolute;
+left:65px;
+Bottom:45px;
+background-color: rgba(21,50,166,0.7);
+padding:10px;
+border-radius: 25px;
+border: 1px white solid;
+}

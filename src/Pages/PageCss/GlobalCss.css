@@ -1,0 +1,18 @@
+.Conteneur{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:10px;
+
+}
+
+.pageContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('./background3.jpg');
+  background-repeat: round;
+  width:75%;
+  border-radius: 30px;
+}
