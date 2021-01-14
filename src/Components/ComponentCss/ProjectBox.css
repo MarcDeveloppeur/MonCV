@@ -14,7 +14,7 @@
   margin-top: 10px;
 }
 .BoxTitre{
-  height:auto;
+  height:0;
   margin-top: auto;
   text-align: center;
   font-family: courier;
@@ -32,11 +32,11 @@
   position:absolute;
   width:100%;
   border-radius: 30px;
-  line-height:auto;
+  line-height:center;
   word-wrap: break-word;
-  visibility: hidden;
+  height:0;
   background-color: rgba(225,225,225,0.5);
-  height:0px;
+  visibility: hidden;
   transform-origin: bottom;
   transition: height 1s ease-in;
   box-shadow: 4px 4px 4px black;
@@ -46,6 +46,10 @@
   visibility: visible;
   height:90%;
 }
+.ProjectBlock:hover .descriptionText{
+  display:block;
+}
+
 
 .descriptionText{
   color:black;
@@ -54,6 +58,7 @@
   line-height: center;
   margin-top: 10px;
   font-weight: bold;
+  display:none
 }
 .detailLink{
 position:absolute;
