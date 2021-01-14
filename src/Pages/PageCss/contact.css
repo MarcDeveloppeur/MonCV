@@ -1,7 +1,7 @@
 .contactContent{
   background-color: rgba(21,50,166,0.7);
   border-radius: 25px;
-  width:40%;
+  width:auto;
   height:150px;
   margin-top: 70px;
   display:flex;
@@ -14,6 +14,7 @@
    cursor: pointer;
    font-size: 1.5em;
    color:white;
+   margin-left: 5%;
 }
 .socialBlock{
   display:flex;
@@ -49,11 +50,18 @@
   align-items: center;
   width:100%;
 }
-.icones{
-  width:50px;
-  height:50px;
-  margin-bottom: 10px;
+.contactIcones{
+  transition: transform 0.7s ease-in;
+  cursor:pointer;
 }
+.contactIcones:hover{
+  transform:translate(5px,5px);
+}
+.contactRow{
+  display:flex;
+  flex-direction: row;
+}
+
 @keyframes collapse {
   to{
     transform: rotateX(360deg);
