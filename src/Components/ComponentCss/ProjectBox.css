@@ -69,3 +69,8 @@ padding:10px;
 border-radius: 25px;
 border: 1px white solid;
 }
+@media all and (max-width:520px) {
+  .ProjectBlock{
+    min-width: 250px;
+  }
+}

@@ -39,3 +39,8 @@ p{
     transform: scale(1);
   }
 }
+@media all and (max-width:520px) {
+    .block{
+      min-width: 250px;
+    }
+}

@@ -55,9 +55,23 @@
   transform:scale(1);
 }
 
-@media all and (max-width:920px){
+@media all and (max-width:1055px){
   .profileImg{
     display:none;
+  }
+  .NavConteneur{
+    display:flex;
+    flex-direction: row;
+    width:auto;
+    height:50px;
+    padding-top:10px;
+    margin-bottom: 20px;
+  }
+  .social-block{
+    display:none;
+  }
+  .headerNav{
+    flex-direction: row;
   }
 }
 
@@ -66,4 +80,9 @@
 }
 .icones{
   margin-right: 10%;
+}
+@media all and (max-width:520px){
+  .linkName{
+    display:none;
+  }
 }
