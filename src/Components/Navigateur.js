@@ -7,10 +7,10 @@ function Navigateur() {
     <div className="NavConteneur">
     <div className="headerNav">
        <img src="./assets/Koala.jpg" alt="image profil" className="profileImg"/>
-       <Link className="lien" to='/' ActiveClassName="ActiveLink"><i className="fa fa-home fa-fw fa-lg icones"></i>Acceuil</Link>
-       <Link className="lien" to='/competence'><i className="fa fa-gavel fa-fw fa-lg icones"></i>Mes competences</Link>
-       <Link className="lien" to='/porfolio'><i className="fa fa-wrench fa-fw fa-lg icones"></i>Porfolio</Link>
-       <Link className="lien" to='/contact'><i className="fa fa-id-card fa-fw fa-lg icones"></i>Contact</Link>
+       <Link className="lien" to='/' ActiveClassName="ActiveLink"><i className="fa fa-home fa-fw fa-lg icones"></i><span className="linkName">Acceuil</span></Link>
+       <Link className="lien" to='/competence'><i className="fa fa-gavel fa-fw fa-lg icones"></i><span className="linkName">Mes competences</span></Link>
+       <Link className="lien" to='/porfolio'><i className="fa fa-wrench fa-fw fa-lg icones"></i><span className="linkName">Porfolio</span></Link>
+       <Link className="lien" to='/contact'><i className="fa fa-id-card fa-fw fa-lg icones"></i><span className="linkName">Contact</span></Link>
     </div>
     <div>
        <div className="social-block">

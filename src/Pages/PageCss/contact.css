@@ -67,3 +67,16 @@
     transform: rotateX(360deg);
   }
 }
+
+@media all and (max-width:1055px){
+  .socialBox{
+    margin: 20px 0;
+  }
+}
+
+
+@media all and (max-width:520px){
+  .socialBox{
+    margin: 20px 0;
+  }
+}
